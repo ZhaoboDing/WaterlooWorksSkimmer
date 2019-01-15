@@ -5,11 +5,11 @@ A chrome extension helps see the brief information of work experiences just by h
 ## Demo
 
 Logging in to [WaterlooWorks](https://waterlooworks.uwaterloo.ca/myAccount/co-op/coop-postings.htm) and switching to job table page, you will find that a tooltip shows when you hover our mouse over the id of each work.
-![p1](res/p1.png)
+![p1](demo/p1.png)
 
 Of course, you can have a custom your own personalized information table by selecting the information you are interested in as is illustrated below.
-![p2](res/p2.png)
-![p3](res/p3.png)
+![p2](demo/p2.png)
+![p3](demo/p3.png)
 
 ## Installation
 * You can install this extension by downloading the .crx file via [link](https://www.dropbox.com/s/c30t12ygw5b3x3m/WaterlooWorksSkimmer.crx?dl=0).
