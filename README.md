@@ -1,6 +1,6 @@
 # WaterlooWorksSkimmer
 
-A chrome extension helps see the brief information of work experiences just by hovering mouse over the work id instead of opening whole web page of the work.
+A chrome extension helps see the brief information of work opportunities just by hovering mouse over the work id instead of opening whole web page of the work.
 
 ## Demo
 
