@@ -1,0 +1,27 @@
+label {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 0 10px;
+    display : block;
+    width: 400px;
+}
+
+label:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    border:2px solid #008cba;
+    border-radius: 8px;
+    float: right;
+    font-size: 16px;
+    margin: 8px 6px;
+    padding: 8px 16px;
+}
+
+button:hover {
+    background-color: #008cba;
+}

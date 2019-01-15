@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "WaterlooWorksSkimmer",
+  "description": "Show brief work information on hovering over work id",
+  "version": "1.0",
+  "author": "Zhaobo Ding",
+
+  "content_scripts": [
+    {
+      "matches": ["https://waterlooworks.uwaterloo.ca/myAccount/co-op/coop-postings.htm"],
+      "css": ["content/css/light.css", "content/css/briefTable.css"],
+      "js": ["content/js/tippy.all.min.js", "jquery/jquery-2.1.1.min.js", "content/js/inject.js", "content/consts/consts.js"]
+    }
+  ],
+  "icons": {
+    "16": "res/wws-16.png",
+    "64": "res/wws-64.png",
+    "128": "res/wws-128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup/html/popup.html"
+  },
+  "background": {
+    "scripts": ["background/background.js"]
+  },
+  "permissions": [
+    "storage"
+  ]
+}

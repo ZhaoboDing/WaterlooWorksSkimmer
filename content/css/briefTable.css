@@ -1,0 +1,26 @@
+.brief {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.brief td {
+    border: 1px solid #c0c0c0;
+    padding: 8px;
+}
+
+.brief tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.brief tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    overflow: scroll;
+    max-height: 500px;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
